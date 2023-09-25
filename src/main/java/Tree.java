@@ -8,12 +8,6 @@ public class Tree {
 
     }
 
-    /**
-     * TODO: Доработать метод print, необходимо распечатывать директории и файлы
-     * @param file
-     * @param indent
-     * @param isLast
-     */
     public static void print(File file, String indent, boolean isLast){
         System.out.print(indent);
         if (isLast){
